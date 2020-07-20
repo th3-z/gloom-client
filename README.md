@@ -28,10 +28,10 @@ You'll need Golang 1.13+ installed before following these steps. Insutructions a
 
 Optionally, add `$(GOPATH)/bin/` to your `PATH` environment variable.
 
-`$(GOPATH)/bin/qtdeploy build desktop .`
+* `$(GOPATH)/bin/qtdeploy build desktop .`
 
 ### Run
 
 Execute the built binary.
 
-`./deploy/linux/gloom-client`
+* `./deploy/linux/gloom-client`
