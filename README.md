@@ -1,5 +1,13 @@
-Gloom client
-------------
+<p align="center">
+    <img width=125 height=125 src="https://files.th3-z.xyz/standing/3378fac86d7e477dc1f3e3fb1659c6b3.png"/>
+</p>
+
+<h1 align="center">Gloom</h1>
+
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/th3-z/gloom-client)](https://goreportcard.com/report/github.com/th3-z/gloom-client) [![GitHub license](https://img.shields.io/github/license/th3-z/gloom-client)](https://github.com/th3-z/gloom-client/blob/master/LICENSE)
+
+## About
 
 Client for [Gloom](https://github.com/th3-z/gloom-server) file server.
 
