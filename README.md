@@ -1,22 +1,29 @@
 Gloom client
 ------------
 
+Client for [Gloom](https://github.com/th3-z/gloom-server) file server.
 
-### Development
+## Development
 
-You'll need Golang 1.13+ installed before following these steps.
+You'll need Golang 1.13+ installed before following these steps. Insutructions are for Ubuntu 18.04, may differ for other operating systems.
 
-#### Setup
+### Installation
 
 * `git clone https://github.com/th3-z/gloom-client.git`
 * `cd gloom-client`
-* Install deps (Example is Ubuntu 18.04)
+* Install dependencies _(Ubuntu 18.04)_
     - `sudo apt-get -y install build-essential libglu1-mesa-dev libpulse-dev libglib2.0-dev`
 * Install Qt binding
     - `export GO111MODULE=off; go get -v github.com/therecipe/qt/cmd/... && $(go env GOPATH)/bin/qtsetup test && $(go env GOPATH)/bin/qtsetup -test=false`
-*
 
-#### Building
+### Build
 
-* `$(GOPATH)/qtdeploy build desktop .`
-* `./deploy/linux/gloom-client`
+Optionally, add `$(GOPATH)/bin/` to your `PATH` environment variable.
+
+`$(GOPATH)/bin/qtdeploy build desktop .`
+
+### Run
+
+Execute the built binary.
+
+`./deploy/linux/gloom-client`
