@@ -22,6 +22,8 @@ func main() {
 	window.Resize2(600, 450)
 	window.Move2((availableGeometry.Width()-window.Width())/2,
 		(availableGeometry.Height()-window.Height())/2)
+
+	ui.InitTrayApp()
 	//window.SetWindowTitle("Hello Widgets Example")
 
 	// create a regular widget
